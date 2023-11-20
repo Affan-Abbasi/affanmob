@@ -4,4 +4,9 @@
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
+
+    <style name="Theme.Firstapp" parent="Base.Theme.Firstapp">
+        <item name="app_footer_icon_color">@color/primary_normal_night</item>
+        <item name="app_heading_color">@color/heading_normal</item>
+    </style>
 </resources>
