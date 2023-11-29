@@ -18,13 +18,34 @@
         android:background="@color/white"
         android:padding="10dp">
 
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
         <TextView
             android:id="@+id/txName"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:text="@string/tx_dashbaord"
+            android:gravity="center"
             android:textColor="?attr/app_heading_color"
             android:textSize="@dimen/heading_text_size" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center|right">
+
+            <ImageView
+                android:id="@+id/ivAdd"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_add"/>
+        </LinearLayout>
 
     </LinearLayout>
 
